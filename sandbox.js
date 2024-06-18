@@ -1,21 +1,28 @@
-//arrays
-var animals = ['dog', 'cat'];
-animals.push('pig');
-// animals.push(true);
-var numbers = [10, 20, 15];
-console.log(animals);
-var mixed = ['ken', 4, 6, false, 9];
-mixed.push('hey');
-mixed[1] = 'hey';
+// explicit types
+var character;
+var age;
+var bool;
+//arrays 
+var fruits = [];
+fruits = ['apple', 'orange'];
+console.log(fruits);
+// union types
+var mixed = [];
+mixed.push("hey");
+mixed.push(1);
+mixed.push(false);
+console.log(mixed);
+// can be a string or number
+var uid;
+uid = "123456789";
+uid = 123;
 //objects
-var ninja = {
-    name: 'ninja',
-    belt: 'black',
-    age: 20
+var ninjaOne;
+ninjaOne = {
+    name: "ninja",
+    age: 30,
+    belt: "black"
 };
-console.log(ninja);
-ninja = {
-    name: 'kim',
-    belt: 'white',
-    age: 30
-};
+console.log(ninjaOne);
+// it can work
+ninjaOne = [];

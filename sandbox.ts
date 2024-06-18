@@ -1,28 +1,37 @@
-//arrays
+// explicit types
 
-let animals = ['dog', 'cat'];
-animals.push('pig');
-// animals.push(true);
-let numbers = [10, 20, 15]
-console.log(animals);
+let character: string;
+let age: number;
+let bool: boolean;
 
-let mixed = ['ken', 4, 6, false, 9]
-mixed.push('hey');
+//arrays 
+let fruits: string[] = [];
 
-mixed[1] = 'hey'
+fruits = ['apple', 'orange'];
+console.log(fruits);
+
+// union types
+let mixed: (string|number|boolean)[] = [];
+mixed.push("hey");
+mixed.push(1);
+mixed.push(false);
+console.log(mixed);
+
+// can be a string or number
+let uid: string|number;
+
+uid = "123456789";
+uid = 123;
 
 //objects
-
-let ninja = {
-    name: 'ninja',
-    belt: 'black',
-    age: 20
+let ninjaOne: object;
+ninjaOne = {
+    name: "ninja",
+    age: 30,
+    belt: "black"
 }
 
-console.log(ninja);
+console.log(ninjaOne);
 
-ninja = {
-    name: 'kim',
-    belt: 'white',
-    age: 30
-}
+// it can work
+ninjaOne = [];

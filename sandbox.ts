@@ -1,19 +1,28 @@
-let character = 'mario';
-let age = 30;
-let isBlackBelt = false;
+//arrays
 
-// character = 20;
-character = 'luigi';
+let animals = ['dog', 'cat'];
+animals.push('pig');
+// animals.push(true);
+let numbers = [10, 20, 15]
+console.log(animals);
 
-// age = 'yoshi';
-age = 40;
+let mixed = ['ken', 4, 6, false, 9]
+mixed.push('hey');
 
-// isBlackBelt = 'yes';
-isBlackBelt = true;
+mixed[1] = 'hey'
 
-const circ = (diameter: number) => {
-  return diameter * Math.PI;
-};
+//objects
 
-// console.log(area('hello'));
-console.log(circ(7.5));
+let ninja = {
+    name: 'ninja',
+    belt: 'black',
+    age: 20
+}
+
+console.log(ninja);
+
+ninja = {
+    name: 'kim',
+    belt: 'white',
+    age: 30
+}

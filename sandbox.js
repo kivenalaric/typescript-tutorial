@@ -1,14 +1,21 @@
-var character = 'mario';
-var age = 30;
-var isBlackBelt = false;
-// character = 20;
-character = 'luigi';
-// age = 'yoshi';
-age = 40;
-// isBlackBelt = 'yes';
-isBlackBelt = true;
-var circ = function (diameter) {
-    return diameter * Math.PI;
+//arrays
+var animals = ['dog', 'cat'];
+animals.push('pig');
+// animals.push(true);
+var numbers = [10, 20, 15];
+console.log(animals);
+var mixed = ['ken', 4, 6, false, 9];
+mixed.push('hey');
+mixed[1] = 'hey';
+//objects
+var ninja = {
+    name: 'ninja',
+    belt: 'black',
+    age: 20
 };
-// console.log(area('hello'));
-console.log(circ(7.5));
+console.log(ninja);
+ninja = {
+    name: 'kim',
+    belt: 'white',
+    age: 30
+};

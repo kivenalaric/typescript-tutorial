@@ -1,21 +1,12 @@
-//arrays
-var animals = ['dog', 'cat'];
-animals.push('pig');
-// animals.push(true);
-var numbers = [10, 20, 15];
-console.log(animals);
-var mixed = ['ken', 4, 6, false, 9];
-mixed.push('hey');
-mixed[1] = 'hey';
-//objects
-var ninja = {
-    name: 'ninja',
-    belt: 'black',
-    age: 20
+var age = 25;
+console.log(age);
+age = "hello there";
+console.log(age);
+age = 2;
+console.log(age);
+age = {
+    name: "jesi",
+    age: 20,
+    belt: "green"
 };
-console.log(ninja);
-ninja = {
-    name: 'kim',
-    belt: 'white',
-    age: 30
-};
+console.log(age);
